@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.384);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid 2px red;
+    border: none;
+    margin-top: 100px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sub-container h1 {
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.sub-container p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.heading {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .heading {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.section-a {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 3mm;
+}
+
+.card-1 {
+    background: rgb(255, 255, 255);
+    max-width: 300px;
+    text-align: left;
+    padding: 2mm;
+    border-top: solid 5px hsl(0, 78%, 62%);
+    box-shadow: 15px 10px 10px #4443431a;
+}
+
+.card-1 h1 {
+    margin-left: 20px;
+}
+
+.card-1 p {
+    margin-left: 20px;
+}
+
+.card-1 .icon {
+    margin-left: 220px;
+}
+
+
+/* card number 4 css */
+
+.card-4 {
+    background: rgb(255, 255, 255);
+    max-width: 300px;
+    text-align: left;
+    padding: 2mm;
+    margin-top: 10px;
+    border-top: solid 5px hsl(34, 97%, 64%);
+    box-shadow: 15px 10px 10px #4443431a;
+}
+
+.card-4 h1 {
+    margin-left: 20px;
+}
+
+.card-4 p {
+    margin-left: 20px;
+}
+
+.card-4 .icon {
+    margin-left: 220px;
+}
+
+
+/* section-b css */
+
+.section-b {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3mm;
+    margin-top: -280px;
+}
+
+.card-2 {
+    background: rgb(255, 255, 255);
+    max-width: 300px;
+    text-align: left;
+    padding: 2mm;
+    border-top: solid 5px hsl(212, 86%, 64%);
+    box-shadow: 15px 10px 10px #4443431a;
+}
+
+.card-2 h1 {
+    margin-left: 20px;
+}
+
+.card-2 p {
+    margin-left: 20px;
+}
+
+.card-2 .icon {
+    margin-left: 220px;
+}
+
+.card-3 {
+    background: rgb(255, 255, 255);
+    max-width: 300px;
+    text-align: left;
+    padding: 2mm;
+    margin-right: 350px;
+    border-top: solid 5px hsl(180, 62%, 55%);
+    box-shadow: 15px 10px 10px #4443431a;
+}
+
+.card-3 h1 {
+    margin-left: 20px;
+}
+
+.card-3 p {
+    margin-left: 20px;
+}
+
+.card-3 .icon {
+    margin-left: 220px;
+}
+
+@media (max-width: 1100px),
+(max-width: 375px) {
+    .section-b {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 3mm;
+        margin: -1px auto;
+        align-content: center;
+    }
+    .card-2 {
+        background: rgb(255, 255, 255);
+        max-width: 300px;
+        text-align: left;
+        padding: 3mm;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .card-3 {
+        background: rgb(255, 255, 255);
+        max-width: 300px;
+        text-align: left;
+        padding: 3mm;
+        margin-left: 4px;
+        margin-right: 0px;
+        margin-top: -10px;
+    }
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #5860606e;
+    padding: 4mm;
+    opacity: .658;
+    text-align: center;
+}
